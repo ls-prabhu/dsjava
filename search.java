@@ -1,3 +1,4 @@
+package dsjava;
 import java.util.Scanner;
 
 public class search {
