@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class StackExample {
+public class stackwarr {
     private int max;
     private int[] st;
     private int top;
