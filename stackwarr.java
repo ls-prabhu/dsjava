@@ -5,7 +5,7 @@ public class stackwarr {
     private int[] st;
     private int top;
 
-    public StackExample(int size) {
+    public stackwarr(int size) {
         max = size;
         st = new int[max];
         top = -1;
@@ -57,7 +57,7 @@ public class stackwarr {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the limit: ");
         int n = scanner.nextInt();
-        StackExample stack = new StackExample(n);
+        stackwarr stack = new stackwarr(n);
 
         while (true) {
             System.out.println("1. PUSH");
